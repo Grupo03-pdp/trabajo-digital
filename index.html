@@ -199,17 +199,17 @@
             referrerpolicy="no-referrer"
         ></script>
         <!--ESTE ES EL SCRIPT PARA EL GRÁFICO-->
-        <script>
+       <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
                 type: "bar",
                 data: {
-                    labels: ["46,0%", "45,5%", "53,5%"],
+                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
                     datasets: [
                         {
-                            label: ["Tiene síntomas depresivos","Muestra síntomas de ansiedad","Tiene síntomas de estrés"]
-                            data: [324, 330, 282,],
-                            backgroundColor: ["#6570B5", "#EB94BF", "#D82C82"],
+                            label: "# of Votes",
+                            data: [12, 19, 3, 5, 2, 3],
+                            backgroundColor: ["#EB94BF", "#D82C82", "#6570B5", "#00FF00", "#00FFFF", "#FF00FF"],
                             borderWidth: 1,
                         },
                     ],
