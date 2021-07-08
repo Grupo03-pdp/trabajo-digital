@@ -201,14 +201,14 @@
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "line",
+                type: "bar",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["46,0%", "45,5%", "53,5%"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
-                            backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
+                            label: "Tiene síntomas depresivos","Muestra síntomas de ansiedad","Tiene síntomas de estrés",
+                            data: [324, 330, 282,],
+                            backgroundColor: ["#6570B5", "#EB94BF", "#D82C82"],
                             borderWidth: 1,
                         },
                     ],
