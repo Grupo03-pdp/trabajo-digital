@@ -27,8 +27,6 @@ body {
        font-weight: 600;
     background: var(--segundocolor);
     color: var(--colorclaro);
-    h1 { color: #1d1d1b; }
-    h2 { color: #1d1d1b; }
 }
 
 strong {
